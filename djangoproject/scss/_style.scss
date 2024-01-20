@@ -361,6 +361,8 @@ blockquote {
 [role="complementary"] {
     //Sidebar in column layouts, gray section in fullwidth layout
     padding: 0 10px 20px;
+    overflow: scroll;
+    height: 334vh;
     @include font-size(14);
 
     @include respond-min(768px) {
